@@ -1,0 +1,226 @@
+Arm Push->Free Spin
+Back Flip Lift->Right Hand
+Back Hand Switch/Tornado->Left Hand
+Back Roll Cross->Right Cross
+Back Roll->Right Hand
+Back Slide->Boys Arm Twist
+Back Slide->Left Hand
+Back To Back->Octopus/Pretzle Exit
+Back To Back->Octopus/Pretzle Intro
+Back To Back->Peeks
+Back To Back->Reverse Side Double Hold
+Back To Back->Side Double Hold
+Base->Boys Cuddle
+Base->Butterfly/Slide
+Base->Do Wave
+Base->Girls Cuddle/Sweetheart
+Base->Left Hand
+Base->Left Step
+Base->Octopus/Pretzle Exit
+Base->Octopus/Pretzle Intro
+Base->Over Elbows Dip
+Base->Right Step
+Base->Rock In
+Base->Rock Out
+Base->Small Push
+Base->Sun Out
+Base->Twist Walk
+Base->Twisted Base
+Both Behind Head Left->Both Behind Left Dip
+Both Behind Head Left->Both Behind Left Sway
+Both Behind Head Left->Both Behind Left Walk
+Both Behind Head Left->Debrah Manouver Left
+Both Behind Head Left->Full Cross Lower
+Both Behind Head Right->Both Behind Right Dip
+Both Behind Head Right->Both Behind Right Sway
+Both Behind Head Right->Both Behind Right Walk
+Both Behind Head Right->Debrah Manouver Right
+Both Behind Head Right->Full Cross Higher
+Both Behind Left Dip->Both Behind Head Left
+Both Behind Left Sway->Both Behind Head Left
+Both Behind Left Walk->Both Behind Head Left
+Both Behind Right Dip->Both Behind Head Right
+Both Behind Right Sway->Both Behind Head Right
+Both Behind Right Walk->Both Behind Head Right
+Boys Arm Twist->Left Cross
+Boys Back Cuddle->Boys Tunnel Left
+Boys Back Cuddle->Boys Tunnel Right
+Boys Cuddle->Base
+Boys Cuddle->Boys Cuddle Side Switch
+Boys Cuddle->Butt Bounce
+Boys Cuddle->Girls Cuddle/Sweetheart
+Boys Cuddle->Right Spin
+Boys Cuddle->Slip Out
+Boys Overhead->Girls Shoulder Push
+Boys Overhead->Left Hand
+Boys Tabletop->Full Cross Lower
+Boys Tunnel Left->Boys Back Cuddle
+Boys Tunnel Left->Full Cross Higher
+Boys Tunnel Right->Boys Back Cuddle
+Boys Tunnel Right->Full Cross Lower
+Bumper Cars->Left Hand
+Butt Bounce->Left Hand
+Butterfly BackPush Spin->Left Hand
+Butterfly/Slide->Right Cross
+Choke Left->Choke Push
+Choke Push->Free Spin
+Clap Left->Free Spin Reverse
+Clap Right->Free Spin
+Debrah Manouver Left->Full Cross Lower
+Debrah Manouver Right->Full Cross Higher
+Do Wave->Base
+Double Swimmer->Right Cross
+Free Spin->Let Go
+Full Cross Higher->Both Behind Head Right
+Full Cross Higher->Boys Overhead
+Full Cross Higher->Boys Tabletop
+Full Cross Higher->Bumper Cars
+Full Cross Higher->Girls Overhead
+Full Cross Higher->Left Cross
+Full Cross Higher->Left Window/Handtwister
+Full Cross Higher->Right Cross
+Full Cross Higher->Two Hand Spin
+Full Cross Lower->Both Behind Head Left
+Full Cross Lower->Boys Overhead
+Full Cross Lower->Bumper Cars
+Full Cross Lower->Girls Overhead
+Full Cross Lower->Girls Tabletop
+Full Cross Lower->Left Cross
+Full Cross Lower->Right Cross
+Full Cross Lower->Right Window/Handtwister
+Full Cross Lower->Two Hand Spin
+Girls Arm Twist->Girls Arm Twist Dip
+Girls Arm Twist->Over Knee Dip Lift
+Girls Arm Twist->Right Pull Spin
+Girls Back Cuddle->Girls Tunnel Left
+Girls Back Cuddle->Girls Tunnel Right
+Girls Cuddle Center->Girls Cuddle Relax Dip
+Girls Cuddle Center->Girls Cuddle/Sweetheart
+Girls Cuddle Center->Trust Fall
+Girls Cuddle High Lift->Girls Cuddle/Sweetheart
+Girls Cuddle Lean->Girls Cuddle/Sweetheart
+Girls Cuddle Low Lift->Girls Cuddle/Sweetheart
+Girls Cuddle Relax Dip->Free Spin
+Girls Cuddle Side Switch->Girls Cuddle Center
+Girls Cuddle Side Switch->Girls Cuddle/Sweetheart
+Girls Cuddle Spin->Girls Cuddle/Sweetheart
+Girls Cuddle/Sweetheart->Boys Cuddle
+Girls Cuddle/Sweetheart->Girls Cuddle Center
+Girls Cuddle/Sweetheart->Girls Cuddle High Lift
+Girls Cuddle/Sweetheart->Girls Cuddle Lay Dip
+Girls Cuddle/Sweetheart->Girls Cuddle Lean
+Girls Cuddle/Sweetheart->Girls Cuddle Lean Back Dip
+Girls Cuddle/Sweetheart->Girls Cuddle Low Lift
+Girls Cuddle/Sweetheart->Girls Cuddle Side Switch
+Girls Cuddle/Sweetheart->Girls Cuddle Spin
+Girls Cuddle/Sweetheart->Right Pull Cuddle Spin
+Girls Cuddle/Sweetheart->Slip Out
+Girls Cuddle/Sweetheart->Step Out
+Girls Forward Lean->Girls Arm Twist Dip
+Girls Forward Lean->Two Hand Spin
+Girls Overhead->Base
+Girls Overhead->Straight Back Dip
+Girls Sitting Prep->Girls Straddle Lift
+Girls Straddle Lift->Full Cross Higher
+Girls Tabletop->Full Cross Higher
+Girls Tunnel Left->Full Cross Lower
+Girls Tunnel Left->Girls Back Cuddle
+Girls Tunnel Right->Full Cross Higher
+Girls Tunnel Right->Girls Back Cuddle
+Girls Turn->Left Hand
+Girls Turn->Regular Dip
+Girls Turn->Turn Reverse
+Headlock Dip->Right Cross
+Headlock Dip->Right Cross
+Lawnmower Dip Lift->Left Hand
+Lean Back Dip->Girls Cuddle/Sweetheart
+Left Cross->Full Cross Higher
+Left Cross->Full Cross Lower
+Left Cross->Left Overhead
+Left Overhead->Left Overhead/Relax Dip
+Left Overhead->Let Go
+Left Step->Base
+Left Window/Handtwister->Full Cross Higher
+Left Window/Handtwister->Window Quick Left
+Let Go->Left Cross
+Let Go->Left Hand
+Let Go->Right Cross
+Let Go->Right Hand
+Octopus/Pretzle Exit->Back To Back
+Octopus/Pretzle Exit->Girls Cuddle/Sweetheart
+Octopus/Pretzle Exit->Two Step Base Right
+Octopus/Pretzle Intro->Back To Back
+Octopus/Pretzle Intro->Girls Cuddle/Sweetheart
+Octopus/Pretzle Intro->Two Step Base Left
+Over Elbows Dip->Base
+Over Knee Dip Lift->Girls Arm Twist
+Peeks->Back To Back
+Push Back Spin->Free Spin
+Regular Dip->Push Back Spin
+Right Cross Spin->Back Hand Switch/Tornado
+Right Cross Spin->Girls Turn
+Right Cross Spin->Headlock Dip
+Right Hand->Back Roll
+Right Hand->Base
+Right Hand->Free Spin
+Right Overhead->Let Go
+Right Pull Cuddle Spin->Two Step Base Right
+Right Pull Spin->Free Spin
+Right Pull Spin->Girls Turn
+Right Spin->Right Hand
+Right Step->Base
+Right Window/Handtwister->Full Cross Lower
+Right Window/Handtwister->Window Quick Right
+Single Swimmer->Boys Cuddle
+Single Swimmer->Double Swimmer
+Slip Out->Boys Cuddle
+Slip Out->Girls Cuddle/Sweetheart
+Slip Out->Twisted Base
+Slow Dance 123->Slow Dance
+Slow Dance Dip->Slow Dance
+Slow Dance Spin->Slow Dance
+Slow Dance Walk->Slow Dance
+Slow Dance->Girls Turn
+Slow Dance->Girls Turn Reverse
+Slow Dance->Slow Dance 123
+Slow Dance->Slow Dance Dip
+Slow Dance->Slow Dance Spin
+Slow Dance->Slow Dance Walk
+Small Push->Base
+Step Out->Free Spin
+Step Out->Girls Cuddle/Sweetheart
+Step Out->Right Hand
+Straight Back Dip->Girls Overhead
+Sun Out->Base
+Sway Left->Base
+Sway Left->Base
+Sway Left->Sway Right
+Sway Right->Sway Left
+Swing Kick Lift->Right Cross
+Trust Fall->Forward Lean
+Turn Reverse->Girls Turn
+Turn Reverse->Girls Turn
+Turn Reverse->Girls Turn Reverse
+Twisted Base Boy Spin->Twisted Base Left
+Twisted Base Left->Back To Back
+Twisted Base Left->Twisted Base Right
+Twisted Base Left->Twisted Base Right
+Twisted Base Right->Back To Back
+Twisted Base Right->Bumper Cars
+Twisted Base Right->Bumper Cars
+Twisted Base Right->Right Spin
+Twisted Base Right->Twisted Base Boy Spin
+Twisted Base Right->Twisted Base Left
+Twisted Base Right->Twisted Base Left
+Two Hand Spin->Full Cross Higher
+Two Hand Spin->Full Cross Lower
+Two Step Base Left Walk->Two Step Base Left
+Two Step Base Left->Octopus/Pretzle Exit
+Two Step Base Left->Two Step Base Left Walk
+Two Step Base Left->Two Step Base Right
+Two Step Base Right Walk->Two Step Base Right
+Two Step Base Right->Octopus/Pretzle Intro
+Two Step Base Right->Two Step Base Left
+Two Step Base Right->Two Step Base Right Walk
+Window Quick Left->Right Window/Handtwister
+Window Quick Right->Left Window/Handtwister

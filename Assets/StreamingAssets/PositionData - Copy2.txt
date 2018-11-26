@@ -1,0 +1,126 @@
+Arm Push,Med,0,0,-209.5,352
+Back Flip Lift,Hard,0,1,-73.60775,-720.4359
+Back Hand Switch/Tornado,Hard,0,0,621.9855,597.1429
+Back Roll,Med,0,0,-207.9419,-540.0969
+Back Roll Cross,Med,0,0,399.3221,-24.84262
+Back Slide,Easy,0,0,-165.6174,591.6223
+Back To Back,Med,0,0,-550.218,-600.8233
+Base,Easy,0,0,-502.3729,-188.6199
+Both Behind Head Left,Med,0,0,1210.848,87.4092
+Both Behind Head Right,Med,0,0,730.5569,490.4117
+Both Behind Left Dip,Med,1,0,1343.341,207.0218
+Both Behind Left Sway,Med,0,0,1370.944,133.414
+Both Behind Left Walk,Med,0,0,1321.259,164.6973
+Both Behind Right Dip,Med,1,0,522.6151,676.2712
+Both Behind Right Sway,Med,0,0,806.0049,685.4722
+Both Behind Right Walk,Med,0,0,1131.719,705.7143
+Boys Arm Twist,Med,0,0,369.8789,523.5351
+Boys Back Cuddle,Hard,0,0,1715.061,310.0726
+Boys Cuddle,Easy,0,0,-666.1501,-405.7627
+Boys Cuddle Side Switch,Med,0,0,-980.8233,-543.7773
+Boys Overhead,Easy,0,0,623.8257,-107.6513
+Boys Tabletop,Med,0,0,859.3705,205.1816
+Boys Tunnel Left,Hard,0,0,1670.896,580.5811
+Boys Tunnel Right,Hard,0,0,1326.78,11.96126
+Bumper Cars,Easy,0,0,748.9589,-254.8668
+Butt Bounce,Med,0,0,44.16465,-639.4673
+Butterfly BackPush Spin,Hard,0,0,-890.6539,760.9201
+Butterfly/Slide,Easy,0,0,340.4359,-92.92979
+Choke Headtwist,Med,0,0,1553.124,762.7603
+Choke Left,Med,0,0,20.24213,370.799
+Choke Push,Med,0,0,-209.7821,442.5666
+Clap Left,Easy,0,0,-1433.511,214.3826
+Clap Right,Easy,0,0,-984.5037,621.0654
+Debrah Manouver Left,Hard,0,0,1319.419,-50.60533
+Debrah Manouver Right,Hard,0,0,1008.426,619.2252
+Do Wave,Easy,0,0,-977.1429,-275.109
+Double Armtwist Boy,Hard,0,0,927.4577,797.724
+Double Armtwist Girl,Hard,0,0,553.8983,742.5182
+Double Swimmer,Med,0,0,-152.7361,153.6562
+Forward Lean,Med,0,0,358.8378,-510.6538
+Free Spin,Easy,0,0,-410.3632,402.0823
+Free Spin Reverse,Med,0,0,-1225.569,98.45036
+Full Cross Higher,Med,0,0,680.8717,326.6344
+Full Cross Lower,Med,0,0,955.0606,67.16707
+Girls Arm Twist,Med,0,0,128.8136,486.7313
+Girls Arm Twist Dip,Med,0,0,-130.6538,-225.4237
+Girls Back Cuddle,Hard,0,0,1354.383,359.7579
+Girls Cuddle Center,Easy,0,0,649.5884,-600.8233
+Girls Cuddle High Lift,Hard,0,1,1243.971,-587.9419
+Girls Cuddle Lay Dip,Hard,0,0,1245.811,-238.3051
+Girls Cuddle Lean,Med,0,0,1273.414,-420.4843
+Girls Cuddle Lean Back Dip,Med,0,0,1236.61,-293.5109
+Girls Cuddle Low Lift,Easy,0,1,1280.775,-530.8959
+Girls Cuddle Relax Dip,Med,1,0,993.7046,-757.2397
+Girls Cuddle Side Switch,Easy,0,0,1151.961,-656.0291
+Girls Cuddle Spin,Easy,0,0,1220.048,-365.2784
+Girls Cuddle/Sweetheart,Easy,0,0,831.7676,-352.3971
+Girls Forward Lean,Med,0,0,22.08233,-527.2155
+Girls Overhead,Easy,0,0,-653.2688,633.9467
+Girls Shoulder Push,Easy,0,0,638.5472,-41.40436
+Girls Sitting Prep,Med,0,0,125.1332,672.5908
+Girls Straddle Lift,Hard,0,1,-198.7409,685.4722
+Girls Tabletop,Med,0,0,1059.952,238.3051
+Girls Tunnel Left,Hard,0,0,1262.373,273.2688
+Girls Tunnel Right,Hard,0,0,1321.259,446.247
+Girls Turn,Easy,0,0,20.24213,-172.0581
+Girls Turn Reverse,Med,0,0,-829.9274,-195.9806
+Headlock Dip,Med,1,0,656.9492,6.440678
+Lawnmower Dip Lift,Hard,1,1,-850.1695,216.2228
+Lean Back Dip,Med,0,0,-1006.586,402.0823
+Left Cross,Easy,0,0,171.138,126.0533
+Left Hand,Easy,0,0,-579.6611,164.6973
+Left Overhead,Med,0,0,-1078.354,315.5932
+Left Overhead/Relax Dip,Med,1,0,-1326.78,405.7627
+Left Step,Easy,0,0,-1091.235,241.9855
+Left Window/Handtwister,Med,0,0,270.5085,610.0242
+Let Go,Easy,0,0,-706.6345,435.2058
+Octopus/Pretzle Exit,Hard,0,0,-609.1041,-508.8136
+Octopus/Pretzle Intro,Hard,0,0,-287.0702,-621.0654
+Over Elbows Dip,Med,1,0,207.9419,208.862
+Over Knee Dip Lift,Hard,1,1,281.5497,-195.9806
+Peeks,Med,0,0,356.9976,116.8523
+Push Back Spin,Easy,0,0,40.48426,-67.16707
+Regular Dip,Easy,1,0,-22.08233,-367.1187
+Reverse Side Double Hold,Med,0,0,-1291.816,-600.8233
+Right Cross,Med,0,0,393.8015,48.76514
+Right Cross Spin,Easy,0,0,634.8669,74.52785
+Right Hand,Med,0,0,-248.4261,-383.6804
+Right Overhead,Easy,0,0,-1240.291,644.9879
+Right Pull Cuddle Spin,Med,0,0,1273.414,-481.2107
+Right Pull Spin,Med,0,0,241.0654,-586.1017
+Right Pull Spin Hand Swap,Med,0,0,1258.693,779.3221
+Right Spin,Easy,0,0,566.7797,-506.9734
+Right Step,Med,0,0,-1155.642,-245.6659
+Right Window/Handtwister,Med,0,0,1008.43,352.2151
+Rock In,Easy,0,0,-817.0461,-414.9637
+Rock Out,Easy,0,0,-382.7603,-389.201
+Side Double Hold,Med,0,0,509.7337,-172.0581
+Single Swimmer,Med,0,0,406.9678,376.7313
+Slip Out,Hard,0,0,49.68523,194.1404
+Slow Dance,Easy,0,0,-800.4843,-72.68765
+Slow Dance 123,Med,0,0,-1490.557,-105.8111
+Slow Dance Dip,Med,0,0,-1050.751,4.600484
+Slow Dance Spin,Med,0,0,-372.6452,146.2796
+Slow Dance Walk,Easy,0,0,-404.8426,475.6901
+Small Push,Easy,0,0,-84.98927,523.8281
+Step Out,Easy,0,0,796.8039,-503.293
+Straight Back Dip,Hard,1,0,-639.0539,368.5592
+Sun Out,Easy,0,0,-1220.048,-157.3366
+Sway Left,Easy,0,0,-609.1041,30.3632
+Sway Right,Easy,0,0,-811.5255,34.04358
+Swing Kick Lift,Hard,0,1,548.3777,186.7797
+Trust Fall,Med,0,0,500.5327,-648.6683
+Turn Reverse,Med,0,0,-599.9031,-54.28572
+Twist Walk,Med,0,0,-944.0194,-343.1961
+Twisted Base,Med,0,0,-40.48426,232.7845
+Twisted Base Boy Spin,Med,0,0,1002.906,-116.8523
+Twisted Base Left,Easy,0,0,425.0847,-328.4746
+Twisted Base Right,Easy,0,0,982.6635,-6.440678
+Two Hand Spin,Med,0,0,160.0969,-28.523
+Two Step Base Left,Med,0,0,-524.4553,-733.3172
+Two Step Base Left Walk,Med,0,0,-864.8911,-646.8281
+Two Step Base Right,Med,0,0,338.5956,-783.0024
+Two Step Base Right Walk,Med,0,0,179.785,-316.2581
+Window Quick Left,Med,0,0,977.1429,470.1695
+Window Quick Right,Med,0,0,-536.0861,224.7312
