@@ -22,6 +22,9 @@ namespace DanceFlow
         [SerializeField]
         private Image border;
 
+        [SerializeField]
+        private BoxCollider2D collider;
+
         public void Initialize(DancePositionRuntime position, Settings settings)
         {
             this.gameObject.name = position.PositionName;
@@ -36,6 +39,8 @@ namespace DanceFlow
 
             float width = position.PositionName.Length*12;
             trans.sizeDelta = new Vector2(trans.sizeDelta.x + width, trans.sizeDelta.y);
+
+            collider.size = trans.sizeDelta;
 
             dragger.DragStartHandler += () =>ToggleMoveUpdates(true);
             dragger.DragEndHandler += ()=>ToggleMoveUpdates(false);

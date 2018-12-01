@@ -92,7 +92,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -106,7 +106,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 40, y: 47}
+  m_Size: {x: 40, y: 40}
   m_EdgeRadius: 0.1
 --- !u!114 &114076948991600296
 MonoBehaviour:
@@ -150,6 +150,7 @@ MonoBehaviour:
   dragger: {fileID: 114795884732935018}
   background: {fileID: 114772211460914174}
   border: {fileID: 114076948991600296}
+  collider: {fileID: 61817727986959752}
 --- !u!114 &114676292089437474
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -307,8 +308,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -209.5, y: 0}
-  m_SizeDelta: {x: 33.15, y: 40}
+  m_AnchoredPosition: {x: -107.8, y: 0}
+  m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224525320279244030
 RectTransform:
@@ -344,8 +345,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.125, y: 0.055000305}
-  m_SizeDelta: {x: 5.83, y: 5.69}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224588901302930504
 RectTransform:

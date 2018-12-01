@@ -15,7 +15,12 @@ namespace DanceFlow
         [SerializeField]
         private bool ShouldUpdate = false;
 
+        [SerializeField]
+        private float angleAdjust = 0;
+
         private RectTransform imageRectTransform;
+
+
 
         void Start()
         {
@@ -37,20 +42,23 @@ namespace DanceFlow
             if (imageRectTransform == null)
                 imageRectTransform = this.transform as RectTransform;
 
-            Vector3 differenceVector = TargetStartPoint.position - TargetEndPoint.position;
+            Vector3 directionVector = TargetStartPoint.position - TargetEndPoint.position;
 
-
-            // imageRectTransform.sizeDelta = new Vector2(differenceVector.magnitude / imageRectTransform.lossyScale.x, lineWidth);
-
-            //imageRectTransform.pivot = pivot;
             RaycastHit2D[] results = new RaycastHit2D[100];
-           // Raycast(Vector2 origin, Vector2 direction, ContactFilter2D contactFilter, RaycastHit2D[] results, float distance = Mathf.Infinity);
-            Physics2D.Raycast(TargetStartPoint.transform.position, differenceVector,new ContactFilter2D(),results);
+           
+            int amount = Physics2D.Raycast(TargetStartPoint.position, -1 * directionVector.normalized, new ContactFilter2D(),results);
 
-            //LayerMask.NameToLayer("");
+            if(amount > 0)
+            foreach (RaycastHit2D result in results)
+            {
+                if (result.collider != null && result.collider.transform == TargetEndPoint.transform)
+                {
+                    imageRectTransform.position = result.point;
+                }
+            }
 
-            imageRectTransform.position = TargetStartPoint.position + ((TargetEndPoint.position - TargetStartPoint.position)* 3) / 4;
-            float angle = Mathf.Atan2(differenceVector.y, differenceVector.x) * Mathf.Rad2Deg;
+            //imageRectTransform.position = TargetStartPoint.position + ((TargetEndPoint.position - TargetStartPoint.position)* 3) / 4;
+            float angle =  Mathf.Atan2(directionVector.y, directionVector.x) * Mathf.Rad2Deg - angleAdjust;
             imageRectTransform.localRotation = Quaternion.Euler(0, 0, angle+90);
         }
 
