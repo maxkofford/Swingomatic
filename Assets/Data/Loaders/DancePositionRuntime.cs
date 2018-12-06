@@ -13,7 +13,7 @@ namespace DanceFlow
         }
 
 
-        public DancePositionRuntime(string positionName, PositionDifficulty difficulty = PositionDifficulty.Easy, bool isLift = false, bool isDip = false, float xSpot = 0, float ySpot = 0)
+        public DancePositionRuntime(string positionName, PositionDifficulty difficulty = PositionDifficulty.Easy, bool isLift = false, bool isDip = false, float xSpot = 0, float ySpot = 0 , string iconUrl = null)
         {
             this.PositionName = positionName;
             this.Difficulty = difficulty;
@@ -21,6 +21,7 @@ namespace DanceFlow
             this.IsADip = isDip;
             this.XSpot = xSpot;
             this.YSpot = ySpot;
+            this.IconUrl = IconUrl;
         }
 
 
@@ -61,6 +62,12 @@ namespace DanceFlow
         }
 
         public float YSpot
+        {
+            get;
+            set;
+        }
+
+        public string IconUrl
         {
             get;
             set;

@@ -81,6 +81,9 @@ namespace DanceFlow
                         currentPosition.XSpot = float.Parse(splitLine[4]);
                         currentPosition.YSpot = float.Parse(splitLine[5]);
 
+                        if(splitLine.Length > 5)
+                        currentPosition.IconUrl = splitLine[6];
+
                         nameToPosition.Add(currentPosition.PositionName, currentPosition);
                         runtimePositions.Add(currentPosition);
                     }
