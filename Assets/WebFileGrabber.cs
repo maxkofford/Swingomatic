@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.UI;
 
 /// <summary>
@@ -42,6 +43,7 @@ public class WebFileGrabber : MonoBehaviour
             Destroy(gameObject);
 
         //Sets this to not be destroyed when reloading scene
+        this.transform.SetParent(null);
         DontDestroyOnLoad(gameObject);
     
     }
@@ -50,18 +52,26 @@ public class WebFileGrabber : MonoBehaviour
     private bool isGrabbing = false;
     private IEnumerator GrabTexture(ImageTodo currentTodo)
     {
-        Texture2D tex;
-        tex = new Texture2D(128, 128, TextureFormat.DXT1, false);
+        Texture2D myTexture = new Texture2D(128, 128, TextureFormat.DXT1, false);
 
         if (currentTodo.url != null && currentTodo.url.Length > 1)
         {
-            using (WWW www = new WWW(currentTodo.url))
-            {
-                yield return www;
-                www.LoadImageIntoTexture(tex);
-                currentTodo.callback(tex);
-                isGrabbing = false;
-            }
+            
+                UnityWebRequest www = UnityWebRequestTexture.GetTexture(currentTodo.url);
+                yield return www.SendWebRequest();
+
+                if (www.isNetworkError || www.isHttpError)
+                {
+                    Debug.Log(www.error);
+                }
+                else
+                {
+                    myTexture = ((DownloadHandlerTexture)www.downloadHandler).texture;
+                    currentTodo.callback(myTexture);
+                    isGrabbing = false;
+
+                }
+  
         }
         else
         {

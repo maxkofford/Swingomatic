@@ -55,7 +55,7 @@ namespace DanceFlow
 
 
         [SerializeField]
-        private BoxCollider2D collider;
+        private BoxCollider2D arrowOrienterCollider;
 
         //whether or not to automatically set it to icon mode if a icon is loaded for it
         [SerializeField]
@@ -136,7 +136,7 @@ namespace DanceFlow
                     //the mode for displaying a icon of the move
 
                     trans.sizeDelta = new Vector2(imageSize + borderWidth + backgroundWidth, imageSize + borderWidth + backgroundWidth);
-                    collider.size = trans.sizeDelta;
+                    arrowOrienterCollider.size = trans.sizeDelta;
                     positionName.gameObject.SetActive(false);
                     icon.gameObject.SetActive(true);
 
@@ -155,7 +155,7 @@ namespace DanceFlow
                     float width = position.PositionName.Length * 12;
                     trans.sizeDelta = new Vector2(40 + width, 40);
 
-                    collider.size = trans.sizeDelta;
+                    arrowOrienterCollider.size = trans.sizeDelta;
                     positionName.gameObject.SetActive(true);
                     icon.gameObject.SetActive(false);
                     break;
