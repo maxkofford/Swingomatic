@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace DanceFlow
 {
+    /// <summary>
+    /// Represents one dance position (a single orientation for the two people without any moving)
+    /// </summary>
     public class DancePositionRuntime
     {
         public enum PositionDifficulty
@@ -11,7 +14,7 @@ namespace DanceFlow
             Med,
             Hard
         }
-
+        
 
         public DancePositionRuntime(string positionName, PositionDifficulty difficulty = PositionDifficulty.Easy, bool isLift = false, bool isDip = false, float xSpot = 0, float ySpot = 0 , string iconUrl = null)
         {

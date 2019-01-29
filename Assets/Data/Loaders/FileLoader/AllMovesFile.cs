@@ -16,11 +16,13 @@ namespace DanceFlow
             {
                 string[] positions = File.ReadAllLines(Path.Combine(Application.streamingAssetsPath, "PositionData.txt"));
                 string[] moves = File.ReadAllLines(Path.Combine(Application.streamingAssetsPath, "MoveData.txt"));
+                string[] moveVariations = File.ReadAllLines(Path.Combine(Application.streamingAssetsPath, "VariationData.txt"));
 
                 List<DancePositionRuntime> runtimePositions = new List<DancePositionRuntime>();
                 List<DanceMoveRuntime> runtimeMoves = new List<DanceMoveRuntime>();
 
                 Dictionary<string, DancePositionRuntime> nameToPosition = new Dictionary<string, DancePositionRuntime>();
+                Dictionary<string, DanceMoveRuntime> nameToMove = new Dictionary<string, DanceMoveRuntime>();
 
                 foreach (string line in positions)
                 {
@@ -104,18 +106,20 @@ namespace DanceFlow
                         if (line[0] == '/' && line[1] == '/')
                             continue;
 
+                        string[] splitLine = line.Split(',');
+                        string[] splitPositions = splitLine[0].Split(new string[] { "->" }, System.StringSplitOptions.RemoveEmptyEntries);
 
-                        string[] splitLine = line.Split(new string[] { "->" }, System.StringSplitOptions.RemoveEmptyEntries);
+                        DanceMoveRuntime currentMove = new DanceMoveRuntime();
 
-                        DanceMoveRuntime currentPosition = new DanceMoveRuntime();
+                        currentMove.LeftPosition = nameToPosition[splitPositions[0]];
+                        currentMove.RightPosition = nameToPosition[splitPositions[1]];
 
-                        currentPosition.LeftPosition = nameToPosition[splitLine[0]];
-                        currentPosition.RightPosition = nameToPosition[splitLine[1]];
+                        nameToPosition[splitPositions[0]].moves.Add(currentMove);
+                        nameToPosition[splitPositions[1]].moves.Add(currentMove);
 
-                        nameToPosition[splitLine[0]].moves.Add(currentPosition);
-                        nameToPosition[splitLine[1]].moves.Add(currentPosition);
+                        currentMove.DanceMoveName = splitLine[0];
 
-                        runtimeMoves.Add(currentPosition);
+                        runtimeMoves.Add(currentMove);
 
                     }
                     catch (Exception e)

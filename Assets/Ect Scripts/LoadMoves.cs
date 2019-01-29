@@ -16,9 +16,6 @@ namespace DanceFlow
         private Canvas movesCanvas;
 
         [SerializeField]
-        private AllMovesScriptable movesScriptableHolder;
-
-        [SerializeField]
         private PositionHolder positionHolder;
 
         [SerializeField]
@@ -31,7 +28,6 @@ namespace DanceFlow
 
         enum LoadType
         {
-            ScriptableObject,
             File,
             Database
                 
@@ -47,9 +43,6 @@ namespace DanceFlow
 
             switch (loader)
             {
-                case LoadType.ScriptableObject:
-                    allMoves = movesScriptableHolder.GetAllMovesRuntime();
-                    break;
                 case LoadType.File:
                     allMoves = AllMovesFile.GetAllMovesRuntime();
                     break;
@@ -58,7 +51,7 @@ namespace DanceFlow
                     break;
             }
 
-            
+
             List<DancePositionRuntime> positions = new List<DancePositionRuntime>(allMoves.Positions);
             List<DanceMoveRuntime> moves = new List<DanceMoveRuntime>(allMoves.Moves);
 

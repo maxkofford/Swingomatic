@@ -5,25 +5,27 @@ namespace DanceFlow
 {
     public class DanceMoveRuntime
     {
+        public string DanceMoveName
+        {
+            get;
+            set;
+        }
+
         public DancePositionRuntime LeftPosition
         {
             get;
             set;
         }
+
         public DancePositionRuntime RightPosition
         {
             get;
             set;
         }
 
+        public List<DanceVariationRuntime> variations = new List<DanceVariationRuntime>();
 
-        public DanceMoveRuntime(DancePositionScriptable leftPosition, DancePositionScriptable rightPosition)
-        {
-            this.LeftPosition = leftPosition.GetRuntimePosition();
-            this.RightPosition = rightPosition.GetRuntimePosition();
-            
-        }
-
+        
         public DanceMoveRuntime()
         {
 
