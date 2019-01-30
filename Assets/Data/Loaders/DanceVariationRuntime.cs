@@ -6,7 +6,7 @@ namespace DanceFlow
     /// <summary>
     /// A variation for one move (aka same move but slightly different positions/speed/flirtyness) 
     /// </summary>
-    public class DanceVariationRuntime : MonoBehaviour
+    public class DanceVariationRuntime
     {
         public DanceMoveRuntime BaseMove
         {

@@ -124,14 +124,13 @@ GameObject:
   - component: {fileID: 6689387}
   - component: {fileID: 6689386}
   - component: {fileID: 6689385}
-  - component: {fileID: 6689384}
   m_Layer: 0
   m_Name: NewPositionButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6689383
 RectTransform:
   m_ObjectHideFlags: 0
@@ -152,18 +151,6 @@ RectTransform:
   m_AnchoredPosition: {x: -357.00006, y: -88}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &6689384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6689382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fde080a18218d4943866ac32cacbe934, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6689385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,8 +191,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6689384}
-        m_MethodName: Save
+      - m_Target: {fileID: 0}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1628,14 +1615,13 @@ GameObject:
   - component: {fileID: 1009406335}
   - component: {fileID: 1009406334}
   - component: {fileID: 1009406333}
-  - component: {fileID: 1009406332}
   m_Layer: 0
   m_Name: NewMoveButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1009406331
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1656,18 +1642,6 @@ RectTransform:
   m_AnchoredPosition: {x: -357.00003, y: -153}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1009406332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1009406330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fde080a18218d4943866ac32cacbe934, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1009406333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1708,8 +1682,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1009406332}
-        m_MethodName: Save
+      - m_Target: {fileID: 0}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2171,8 +2145,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionsCanvas: {fileID: 630061609}
   movesCanvas: {fileID: 946096584}
-  movesScriptableHolder: {fileID: 11400000, guid: 27b2dab40a2518f41807c10e847448b0,
-    type: 2}
   positionHolder: {fileID: 114477362707514958, guid: b3710ab84f8fbbf4b8f9816b52bf0743,
     type: 3}
   moveHolder: {fileID: 114372922246043442, guid: 85e2e1e109e6d4f48aa484cf94c313a5,

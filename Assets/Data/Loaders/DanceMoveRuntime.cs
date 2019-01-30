@@ -23,7 +23,8 @@ namespace DanceFlow
             set;
         }
 
-        public List<DanceVariationRuntime> variations = new List<DanceVariationRuntime>();
+
+        public List<DanceVariationRuntime> Variations = new List<DanceVariationRuntime>();
 
         
         public DanceMoveRuntime()

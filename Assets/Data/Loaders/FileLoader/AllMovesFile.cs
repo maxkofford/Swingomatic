@@ -17,9 +17,11 @@ namespace DanceFlow
                 string[] positions = File.ReadAllLines(Path.Combine(Application.streamingAssetsPath, "PositionData.txt"));
                 string[] moves = File.ReadAllLines(Path.Combine(Application.streamingAssetsPath, "MoveData.txt"));
                 string[] moveVariations = File.ReadAllLines(Path.Combine(Application.streamingAssetsPath, "VariationData.txt"));
+                string[] peopleStyles = File.ReadAllLines(Path.Combine(Application.streamingAssetsPath, "PeopleStyleData.txt"));
 
                 List<DancePositionRuntime> runtimePositions = new List<DancePositionRuntime>();
                 List<DanceMoveRuntime> runtimeMoves = new List<DanceMoveRuntime>();
+                Dictionary<string, DancePersonStyleRuntime> runtimePeopleStyles = new Dictionary<string, DancePersonStyleRuntime>();
 
                 Dictionary<string, DancePositionRuntime> nameToPosition = new Dictionary<string, DancePositionRuntime>();
                 Dictionary<string, DanceMoveRuntime> nameToMove = new Dictionary<string, DanceMoveRuntime>();
@@ -83,8 +85,8 @@ namespace DanceFlow
                         currentPosition.XSpot = float.Parse(splitLine[4]);
                         currentPosition.YSpot = float.Parse(splitLine[5]);
 
-                        if(splitLine.Length > 5)
-                        currentPosition.IconUrl = splitLine[6];
+                        if (splitLine.Length > 5)
+                            currentPosition.IconUrl = splitLine[6];
 
                         nameToPosition.Add(currentPosition.PositionName, currentPosition);
                         runtimePositions.Add(currentPosition);
@@ -130,7 +132,70 @@ namespace DanceFlow
 
                 }
 
-                runtimeAllMoves = new AllMovesRuntime(runtimePositions, runtimeMoves);
+                foreach (string line in moveVariations)
+                {
+
+                    try
+                    {
+                        if (line.Length < 2)
+                            continue;
+                        if (line[0] == '/' && line[1] == '/')
+                            continue;
+
+                        string[] splitLine = line.Split(',');
+
+                        nameToMove[splitLine[0]].Variations.Add(new DanceVariationRuntime() { BaseMove = nameToMove[splitLine[0]], VariationName = splitLine[1] });
+                    }
+
+                    catch (Exception e)
+                    {
+                        Debug.Log("Error Variation: " + line);
+                        Debug.Log(e);
+                    }
+                }
+
+                foreach (string line in peopleStyles)
+                {
+
+                    try
+                    {
+                        if (line.Length < 2)
+                            continue;
+                        if (line[0] == '/' && line[1] == '/')
+                            continue;
+
+                        string[] splitLine = line.Split(',');
+
+                        string personName = splitLine[0];
+                        string dancePartName = splitLine[1];
+                        string weight = splitLine[2];
+                       
+                        DancePersonStyleRuntime targetStyle;
+                        if (!runtimePeopleStyles.ContainsKey(personName))
+                        {
+                            runtimePeopleStyles.Add(personName, new DancePersonStyleRuntime() { PersonName = personName });
+                        }
+                        targetStyle = runtimePeopleStyles[personName];
+
+                        //if its a dance move....
+                        if (dancePartName.Contains("->"))
+                        {
+                            targetStyle.myMoveWeights.Add(new DancePersonStyleRuntime.DanceMoveWeights() { TargetMove = nameToMove[dancePartName], Weight = float.Parse(weight) });
+                        }
+                        else
+                        {
+                            targetStyle.myPositionWeights.Add(new DancePersonStyleRuntime.DancePositionWeights() { TargetPosition = nameToPosition[dancePartName], Weight = float.Parse(weight) });
+                        }
+
+                    }
+
+                    catch (Exception e)
+                    {
+                        Debug.Log("Error Person Style: " + line);
+                        Debug.Log(e);
+                    }
+                }
+
             }
 
             return runtimeAllMoves;
