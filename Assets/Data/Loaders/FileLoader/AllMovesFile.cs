@@ -196,6 +196,7 @@ namespace DanceFlow
                     }
                 }
 
+                runtimeAllMoves = new AllMovesRuntime(runtimePositions,runtimeMoves);
             }
 
             return runtimeAllMoves;

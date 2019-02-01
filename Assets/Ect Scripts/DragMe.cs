@@ -5,7 +5,7 @@ namespace DanceFlow
 {
 
     [RequireComponent(typeof(Image))]
-    public class DragMe : MonoBehaviour, IBeginDragHandler, IDragHandler , IEndDragHandler,IPointerClickHandler
+    public class DragMe : MonoBehaviour, IBeginDragHandler, IDragHandler , IEndDragHandler, IPointerClickHandler
     {
         public bool dragOnSurfaces = true;
 
